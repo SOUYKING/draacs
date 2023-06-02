@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Dracs</title>
     <style>
-       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     font-family : 'Poppins', sans-serif;
@@ -62,7 +62,7 @@
     }
     
     .main h2{
-        color: #fff;
+        color: #ffffff;
         font-size: 1.4em;
         font-weight: 500;
     
@@ -71,13 +71,13 @@
     .main h2 span{
         display: inline-block;
         margin-top: 10px;
-        color: #ffbf00 ;
+        color: #ff9900 ;
         font-size: 2.4em;
         font-weight: 600;
     }
     
     .main h3{
-        color: #fff;
+        color: #ffffff;
         font-size: 2em;
         font-weight: 700;
         letter-spacing: 1px ;
@@ -104,51 +104,75 @@
         transform: scale(1.1 );
     
     }
-    .social *{
-        color: #000000;
-        background-color:rgb(255, 230, 0);
-        text-decoration: none;
-        font-size: 1.1em;
-        font-weight: 600;
-        display: inline-block;
-        padding: 0.9375em;
-        letter-spacing: 1px;
-        border-radius: 20px;
-        margin-bottom: 54px;
-        transition: 0.7s ease;
-        
+
+    .social a {
+        color: #ffffff;
+        font-size: 1.5em;
+        padding-right: 30px;
     }
+        
+    
     
     .social:hover*{
         background-color: #ffb700;
         transform: scale(1.1);
     
     }
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px ;
+    }
+
+    .navigation a {
+        padding-left: 10px ;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding :80px 20px ;
+    }
+
+    .main-content h2 {
+        font-size: 1.9em ;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+
+}
     
     
     </style>
 </head>
-
 <body>
     <header>
         <a href="#" class="logo">دراكس</a>
         <nav class="navigation">
-            <a href="https://www.youtube.com/@dracsd7/videos">المقاطع الرائجة</a>
+            <a href="https://www.youtube.com/@dracsd7/videos">المقاطع الرائجه</a>
             <a href="https://discord.com/invite/WhQKvuBxPk">المتجر</a>
-        </nav>
     </header>
     <section class="main">
-        <div>
-            <h2>السلام عليكم انا دراكس<br><span>صانع محتوى</span></h2>
-            <h3>اعمل مقاطع تسعدكم يا أساطير</h3>
-            <a href="https://www.youtube.com/@dracsd7/videos" class="main-btn">شاهد المقاطع الجديدة</a>
-            <div class="social">
-                <a href="https://www.youtube.com/@dracsd7/featured">يوتيوب</a>
-                <a href="https://www.tiktok.com/@dracs_d7">تيك توك</a>
-                <a href="https://discord.com/invite/vehANxjr5j">ديسكورد</a>
-                <a href="https://www.facebook.com/groups/377831334313572">فيسبوك</a>
-            </div>
+    <div>
+        <h2>السلام عليكم انا دراكس<br><span>صانع محتوى</span></h2>
+        <h3>اعمل مقاطع تسعدكم يا اساطير</h3>
+        <a href="https://www.youtube.com/@dracsd7/videos" class="main-btn">شوف المفاطع الجديده</a>
+        <div class="social">
+            <a href="https://www.youtube.com/@dracsd7/featured"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@dracs_d7"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://discord.com/invite/vehANxjr5j"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.facebook.com/groups/377831334313572"><i class="fa-brands fa-facebook"></i></a>
+            
         </div>
-    </section>
+        
+
+    </div>
+</section>
+
+
 </body>
 </html>
